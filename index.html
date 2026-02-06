@@ -1,68 +1,136 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>my portfolio</title>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(120deg, #ff9a9e, #fad0c4);
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.85);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            margin: 0;
+            letter-spacing: 2px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+
+        h2 {
+            border-left: 5px solid #ff7a7a;
+            padding-left: 10px;
+            margin-top: 30px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background: #ff7a7a;
+            color: white;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        ul {
+            list-style: square;
+            padding-left: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            color: white;
+            font-size: 14px;
+        }
+    </style>
 </head>
 
-<body bgcolor="LightSalmon">
+<body>
 
-    <header>
-        <h1>Portfolio</h1>
-        <p>welcome to my portfolio page</p>
-        <hr>
-    </header>
+<header>
+    <h1>Portfolio</h1>
+    <p>Welcome to my personal website</p>
+</header>
 
-    <h2>About me</h2>
+<div class="container">
+
+    <h2>About Me</h2>
     <p>
-        Hi, My name is Dhrubajyoti Barman. I am a student who is currently
-        persuing Masters in computers application.
+        Hi, my name is <b>Dhrubajyoti Barman</b>.
+        I am a student currently pursuing
+        Masters in Computer Applications.
     </p>
 
-    <ul>
-        <li><h2>Education</h2></li>
-    </ul>
-
-    <table border="2">
+    <h2>Education</h2>
+    <table>
         <tr>
-            <th>level</th>
-            <th>status</th>
+            <th>Level</th>
+            <th>Status</th>
         </tr>
         <tr>
-            <td>10th grade</td>
-            <td>completed</td>
+            <td>10th Grade</td>
+            <td>Completed</td>
         </tr>
         <tr>
-            <td>12th grade</td>
-            <td>completed</td>
+            <td>12th Grade</td>
+            <td>Completed</td>
         </tr>
         <tr>
             <td>Degree</td>
-            <td>completed</td>
+            <td>Completed</td>
         </tr>
         <tr>
             <td>Masters</td>
-            <td>ongoing</td>
+            <td>Ongoing</td>
         </tr>
     </table>
 
+    <h2>Skills</h2>
     <ul>
-        <li><h2>Skills</h2></li>
+        <li>Oracle Database</li>
+        <li>HTML & CSS</li>
+        <li>C / C++</li>
+        <li>Java</li>
+        <li>Video Editing</li>
     </ul>
 
-    <ul style="list-style:square;">
-        <li>oracle database</li>
-        <li>html and css</li>
-        <li>c/c++</li>
-        <li>java</li>
-        <li>video editing</li>
-    </ul>
+    <h2>Contact</h2>
+    <p>Email: dhrubajotibarman178@gmail.com</p>
+    <p>Phone: 123456789</p>
 
-    <h2>Contacts</h2>
-    <p>you can contact me here:</p>
-    <p>email: dhrubajotibarman178@gmail.com</p>
-    <p>phone number: 123456789</p>
+</div>
 
-    <hr>
+<footer>
+    © 2026 • My Portfolio
+</footer>
 
 </body>
 </html>
